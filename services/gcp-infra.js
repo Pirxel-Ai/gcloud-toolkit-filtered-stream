@@ -253,7 +253,7 @@ async function insertStreamResults(results) {
     let data = results;
     if (data != undefined)  {
         insertTweets(data);
-        //insertUsers(data);
+        insertUsers(data);
     }
 }
 

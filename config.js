@@ -2,7 +2,7 @@ var config = {};
 
 config.PORT = 4060;
 
-config.twitter_bearer_token = 'Bearer <<YOUR_TOKEN>>'
+config.twitter_bearer_token = 'Bearer AAAAAAAAAAAAAAAAAAAAAHubfwEAAAAAMePZ8Drb4TApumos3GIQL4uRRO8%3Dm90OEMAUzrLte13sFW9HxUvJUGNLCVC9XQKIDj5VoX3P94DQo0'
 
 config.filtered_stream = {
     "host" : 'https://api.twitter.com',
@@ -20,13 +20,13 @@ config.filtered_stream.rules = {
 }
 
 config.gcp_infra = {
-    "projectId" : "twttr-des-sa-demo-dev",
-    "topicName" : "fs-crypto",
-    "subscriptionName" : "fs-crypto-sub",
+    "projectId" : "deeplogo",
+    "topicName" : "Streaming",
+    "subscriptionName" : "Streaming-sub",
     "messageCount" : 100
 }
 config.gcp_infra.bq = {
-    "dataSetId": "fs_trends"
+    "dataSetId": "Streaming"
 }
 config.gcp_infra.bq.table = {
     "tweets": "tweets",
